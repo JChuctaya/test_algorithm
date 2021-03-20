@@ -3,8 +3,6 @@ package main
 import "fmt"
 
 func merge_sort(left, right [] int) (result [] int){
-    fmt.Println("izquierdo : ",left)
-	fmt.Println("derecho : ",right)
 	result = make([] int, len(left)+len(right))
     i := 0
 
